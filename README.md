@@ -75,5 +75,4 @@ to `../results/gradient_variance_vs_qubits.png`.
 
 ## Author
 
-Bibhusita Baishya — MSc Physics, transitioning toward quantum information
-theory research.
+Bibhusita Baishya — MSc Physics, transitioning toward quantum information theory research.
