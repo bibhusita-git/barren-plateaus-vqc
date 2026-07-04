@@ -5,7 +5,7 @@ Newest entries at the top.
 
 ---
 
-## 2026-07-05
+## 04-07-2026
 
 **Did:**
 - Set up project environment (PennyLane 0.45.1, Python 3.12.3)
