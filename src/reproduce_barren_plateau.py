@@ -84,7 +84,7 @@ def run_experiment(qubit_range, depth=6, n_samples=200):
     return np.array(variances)
 
 
-def plot_results(qubit_range, variances, save_path="barren_plateau_week1.png"):
+def plot_results(qubit_range, variances, save_path="../results/gradient_variance_vs_qubits.png"):
     plt.figure(figsize=(7, 5))
     plt.semilogy(qubit_range, variances, "o-", linewidth=2, markersize=8)
     plt.xlabel("Number of qubits (n)")
@@ -102,9 +102,9 @@ def plot_results(qubit_range, variances, save_path="barren_plateau_week1.png"):
 
 
 if __name__ == "__main__":
-    qubit_range = [2, 4, 6, 8]
+    qubit_range = [2, 4, 6, 8, 10, 12]
     depth = 4
-    n_samples = 50
+    n_samples = 200
 
     variances = run_experiment(qubit_range, depth=depth, n_samples=n_samples)
     plot_results(qubit_range, variances)
