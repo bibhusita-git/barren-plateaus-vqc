@@ -34,8 +34,9 @@ For a random hardware-efficient ansatz with a global cost function
 
 ![Gradient variance vs qubit count](results/gradient_variance_vs_qubits.png)
 
-Fitted slope: **-0.68**, closely matching the theoretical prediction of
-**-0.693** (ln(1/2)) expected for an ideal unitary 2-design.
+Fitted slope: **-0.72**, closely matching the theoretical prediction of
+**-0.693** (ln(1/2)) expected for an ideal unitary 2-design. Computed over
+qubit counts 2–12 with 200 samples per data point.
 
 ## Repository Structure
 
